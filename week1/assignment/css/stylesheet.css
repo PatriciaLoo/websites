@@ -1,0 +1,67 @@
+html{
+	background-color:blue;
+	height:100%;	/*makes the html the height of your browser*/
+}
+
+body{background-color:beige;
+	width:80%;
+	min-height:100%; 	/*makes the body at least as high as the html tag*/
+	margin:0 auto; 		/*makes top-bottom 0 px, left-right split automatically*/
+	padding:0 20px; 	/*pushes body away from html*/
+	}
+
+nav{
+	background-color:Gold;
+	padding:20px;
+	border-radius:10px; 	/*rounded corners*/
+	width:70%;				/*50% of body tag*/
+	margin:auto;			/*same trick as for body*/
+	text-align:center;		/*centers the links in the nav tag*/
+}
+
+nav a{
+	/*only applies to <a> tags inside a <nav> tag*/
+	color:gray;
+	text-decoration:none;	r/*emoves default link underline*/
+	padding:5px;
+}
+
+nav a:hover{
+	/*pseudo-tag - css only applied when hovering over <a> inside a <nav>*/
+	background-color:yellow;
+	color:green;
+	border-radius:5px;
+}
+
+.intro{
+	text-align: center;
+	background-color:black;
+	color:red;
+	padding:20px;
+	margin:auto;
+}
+
+.relaxr{
+	text-align:center;
+	background-color:black;
+	color:red;
+	padding:10px;
+	margin:auto;
+}
+
+.relaxr li{
+	/*display: inline-block;*/
+	text-align:center;
+	width:50%;
+}
+
+a{}
+h1{
+}
+p{
+	font-style:Arial;
+	font-size:16px;
+	color:green;
+}
+img{} 
+footer{}

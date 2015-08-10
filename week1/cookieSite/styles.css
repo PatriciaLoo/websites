@@ -1,0 +1,26 @@
+body{background-color:#FFE;}
+
+h1{
+	font-family: Verdana;
+	font-size: 40px;
+	color:#191970;
+	text-shadow:3px 2px 2px gray;}
+
+h2{
+	font-family: Verdana;
+	font-size:30px;
+	color:#191970;
+	text-shadow:3px 2px 2px gray;
+}
+
+h3{
+	font-family: Verdana;
+	font-size:30px;
+	color: #191970;
+	text-shadow:3px 2px 2px gray;}
+
+p{
+	font-family:Verdana;
+	font-size:16px;}
+
+a{color:#900;}
